@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<metadata lang="UTF-8"></metadata>
+<title>Assignment1 to Learn Flow of Tab Index</title>
+<head>
+       <link rel="stylesheet" href="../css/assignment.css"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+</head>
+<body onload="onLoadFocus()">
+       <p> <i>Specify the tab indexes in such a way that the flow must go from 
+              Name to Email and then to Password Field, After that it should have tab 
+              to Button
+       </i> </p>
+       <div class="surrondme">     
+        <div class="goodspace">
+              <label for="name" >Enter the Name:</label>
+              <div>
+              <input type="text" name="name" id="name" tabindex="0"/>
+       </div>
+       </div>
+
+       <div class="goodspace">
+              <label for="password" >Enter the Password:</label>
+              <div>
+              <input type="password" name="password" id="password"/>
+       </div>
+       </div>
+
+       <div class="goodspace">
+              <label for="email" >Enter the Email:</label>
+              <div>
+              <input type="text" name="email" id="email"/>
+       </div>
+       </div>
+
+       <button id="clickme" onblur="onLoadFocus()"> Click Me </button>
+       </div>
+ 
+ <script src="../js/assignment.js"></script>
+</body>
+
+</html>

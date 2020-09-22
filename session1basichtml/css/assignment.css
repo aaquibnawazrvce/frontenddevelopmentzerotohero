@@ -1,0 +1,26 @@
+input:focus{
+    border:1px dotted black;
+}
+
+.goodspace{
+padding:1%;
+margin:1%;
+}
+
+#clickme{
+    background-color: aqua;
+    color:black;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.surrondme {
+    border: 5px solid aqua;
+    width: 22%;
+}
+
+#preformme{
+    border: 5px solid black;
+    margin: 1%;
+    width: 34%;
+}   
