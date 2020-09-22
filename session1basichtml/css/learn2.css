@@ -1,0 +1,36 @@
+.class1{
+    background-color: yellow;
+    color:black;
+    padding: 2px;
+    margin: 10px;
+    border: 1px dotted red;
+}
+
+
+.imgreg {
+    width: 5em;
+    height: 5em;
+}
+
+.cardsimg{
+    width: 10em;
+}
+
+.class2 {
+    background-color: pink;
+    color: black;
+    border: 1px dotted black;
+    padding: 2px;
+    margin: 10px;
+}
+
+.heading{
+    background-color:yellow;
+    display: inline-block;
+    border:1px solid black;
+    color: black;
+    font-size: 1em;
+    font-weight: 800;
+    padding:2%;
+    margin:2%;
+}
