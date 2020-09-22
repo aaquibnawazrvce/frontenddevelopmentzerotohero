@@ -1,5 +1,6 @@
 # frontenddevelopmentzerotohero
-This Repository is Created for maintaining examples of sessions provided on HTML 
+This Repository is Created for maintaining examples of sessions provided on HTML
+<hr> 
 file1.html 
 This contains example of basic structure of html
 <hr>
