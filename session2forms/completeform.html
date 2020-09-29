@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="test.do" method="GET">
+
+        <div>
+            <label for="username"> Enter your Username: </label>
+            <input type="text" name="username" id="username" maxlength="10"
+            minlength="4"  placeholder="Enter Username">
+        </div>
+
+        <div>
+            <label for="paymenttype"> Select Payment Type:</label>
+            <select id="paymenttype" name="paymenttype" multiple>
+                <option value=""></option>
+              <option value="debitcard">Debit Card</option>
+              <option value="creditcard">Credit Card</option>
+              <option value="cash"selected>Cash</option>
+              <option value="upi">UPI</option>
+            </select>
+         </div>
+
+         
+         <div>
+            <div>
+           <label>Select Items for Auto Pay</label>
+       </div>
+       <div>
+          <input type="checkbox" id="mobilebill" name="mobilebill" value="Mobile">
+         <label for="mobilebill"> Auto Pay Mobile Bill</label>
+       </div>
+       <div>
+         <input type="checkbox" id="broadbandbill" name="broadbandbill"
+          value="BroadBandBill" checked>
+         <label for="broadbandbill"> Auto Pay Broadband Bill</label>
+       </div>
+       <div>   <input type="checkbox" id="electricbill" name="electricbill"
+            value="ElectricBill">
+         <label for="electricbill"> Auto Pay Electricity Bill</label>
+       </div>
+
+          </div>
+
+          <div>
+            <label for="specialcomments">Enter Comments For
+                 Special Message in Transaction for Emails</label>
+            <div>            <textarea name="specialcomments" rows="2" cols="50">
+            </textarea>
+        </div>
+
+           </div>
+
+           <div>
+            <label for="selectdate">Date For Starting the Auto Pay</label>
+            <input type="date" name="selectdate" id="selectdate"
+                min="2020-09-29">
+            
+        </div>
+
+        <div> 
+            <label for="emailv"> Enter the Email Address for Receipts: </label>
+            <input type="email" id="emailv" name="emailv">
+        </div>
+
+        <div>
+            <label for="age">Enter Your Age:</label>
+            <input type="number" id="age" name="age"
+               min="15" max="110"  step="5" value = "15">
+        </div>
+
+            <div>
+        <label for="donationrange"> Donate percentage additional to Poor
+            (0% to 5% of additional bill)</label>
+            <input type="range" id="donationrange" name="donationrange" min="0" max="5">
+
+        </div>
+ 
+        
+        <div>
+            <label for="primarybank">Select Primary Bank:</label>
+            <div>
+            <input type="radio" id="sbi" name="primarybank" value="sbi">
+            <label for="sbi">SBI</label>
+        </div>
+        <div>
+            <input type="radio" id="hdfc" name="primarybank" value="hdfc">
+            <label for="hdfc">HDFC</label>
+        </div>
+        <div>
+            <input type="radio" id="other" name="primarybank" value="other">
+            <label for="other">Other</label>
+        </div>
+         </div>
+
+         
+<div>        
+    <label for="giftcoupon">Choose a Gift Coupon:</label>
+    <input list="giftcouponkinds" id="giftcouponkind" name="giftcouponkind" />
+    
+    <datalist id="giftcouponkinds">
+        <option value="Amazon">
+        <option value="Flipkart">
+        <option value="Snapdeal">
+        <option value="Meesho">
+      </datalist>
+    
+    </div>  
+
+    
+<div>   
+    <label for="profilepic">Select Profile Pic:</label>
+<input type="file" id="profilepic" name="profilepic" multiple>     
+
+</div>  
+        <button type="submit">Submit</button>
+
+    </form>
+    
+    </body>

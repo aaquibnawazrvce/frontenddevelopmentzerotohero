@@ -1,0 +1,19 @@
+div{
+    padding:1em;
+    margin: 1em;
+}
+
+label{
+    background-color: greenyellow;
+    color:black;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+button{
+    background-color:orange;
+    color:black;
+    text-align: center;
+    padding: 1em;
+    margin-left: 2em;
+}

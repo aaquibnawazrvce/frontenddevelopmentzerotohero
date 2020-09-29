@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="test.do" method="GET">
+
+<div>        
+<label for="giftcoupon">Choose a Gift Coupon:</label>
+<input list="giftcouponkinds" id="giftcouponkind" name="giftcouponkind" />
+
+<datalist id="giftcouponkinds">
+    <option value="Amazon">
+    <option value="Flipkart">
+    <option value="Snapdeal">
+    <option value="Meesho">
+  </datalist>
+
+</div>  
+        <button type="submit">Submit</button>
+        
+    </form>
+
+</body>
