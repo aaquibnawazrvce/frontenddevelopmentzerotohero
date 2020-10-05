@@ -1,0 +1,12 @@
+let  firstName  = 'Aaquib';
+console.log('First Name: '+ firstName);
+let result = 10;
+console.log('Result = '+ result);
+let result1 = 10.5678;
+console.log('Result1 = ' +result1);
+let paymentStatus = false;
+console.log('Payment Status is : '+ paymentStatus);
+let test = undefined;
+console.log('Test ' + test);
+let test1 = null; 
+console.log('Test1 is : '+ test1);
